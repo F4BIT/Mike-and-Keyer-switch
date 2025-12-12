@@ -16,8 +16,15 @@ void setup() {
   pinMode(switchSSB, INPUT_PULLUP); // interrupteur connecté à la masse
   pinMode(switchCW, INPUT_PULLUP);
 
-  lcd.init();
-  lcd.backlight();
+// Message d'accueil sur le LCD
+
+lcd.init();
+lcd.backlight();
+lcd.setCursor(0, 0);
+lcd.print(" Master Station");
+lcd.setCursor(0, 1);
+lcd.print("  v0.1 - F4BIT");
+delay(4000);
 }
 
 void loop() {
