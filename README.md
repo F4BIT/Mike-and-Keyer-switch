@@ -1,4 +1,5 @@
-# Mike-and-Keyer-switch
+# Master-Station-Switch
+
 Switch beetween 2 tranceiver for microphone and keyer
 
 
