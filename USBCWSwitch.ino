@@ -39,8 +39,8 @@ void loop() {
   
   lcd.setCursor(0, 1);
   lcd.print("IC-9700 : ");
-  lcd.print(etatSSB == LOW ? "   " : "SSB ");
-  lcd.print(etatCW == LOW ? "   " : "CW ");
+  lcd.print(etatSSB == LOW ? "    " : "SSB ");
+  lcd.print(etatCW == LOW ? "    " : "CW ");
 
   delay(200); // mise à jour douce
 }
